@@ -1,8 +1,7 @@
 # This list may be extended (e.g. point clouds, meshes)
-anyOf:
- - type: string
- - type: string
-   enum:
-   - map
-   - vector
-   - coverage
+title: Data type schema
+type: string
+enum:
+  - map
+  - vector
+  - coverage
